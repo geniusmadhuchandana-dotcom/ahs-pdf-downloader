@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AHS Document Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 World of MSc Radiology</h1>
+            <p class="subtitle">Health Science Subjects</p>
+        </header>
+
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="🔍 Search documents...">
+        </div>
+
+        <div class="semester-filter">
+            <button class="filter-btn active" data-semester="all">All Semesters</button>
+            <button class="filter-btn" data-semester="1">1st Sem</button>
+            <button class="filter-btn" data-semester="2">2nd Sem</button>
+            <button class="filter-btn" data-semester="3">3rd Sem</button>
+            <button class="filter-btn" data-semester="4">4th Sem</button>
+            <button class="filter-btn" data-semester="5">5th Sem</button>
+            <button class="filter-btn" data-semester="6">6th Sem</button>
+            <button class="filter-btn" data-semester="7">7th Sem</button>
+            <button class="filter-btn" data-semester="8">8th Sem</button>
+            <button class="filter-btn" data-semester="9">9th Sem</button>
+            <button class="filter-btn" data-semester="10">10th Sem</button>
+        </div>
+
+        <div id="subjectFilter" class="subject-filter" style="display: none;">
+            <!-- Subject buttons will be dynamically added here -->
+        </div>
+
+        <div class="stats">
+            <span id="documentCount">0 documents available</span>
+        </div>
+
+        <div class="document-grid" id="documentGrid">
+            <!-- Documents will be loaded here by JavaScript -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
