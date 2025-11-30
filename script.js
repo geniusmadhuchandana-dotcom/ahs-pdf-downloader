@@ -2,7 +2,7 @@
 const documents = [
     {
         name: "Bones and Joints",
-        filename: "bones and joints.pptx",
+        filename: "ANATOMY/bones and joints - Copy.pptx",
         type: "PPTX",
         icon: "🦴",
         category: "Skeletal System",
@@ -11,7 +11,7 @@ const documents = [
     },
     {
         name: "Individual Muscle",
-        filename: "individual muscle.pptx",
+        filename: "ANATOMY/individual muscle.pptx",
         type: "PPTX",
         icon: "💪",
         category: "Muscular System",
@@ -19,8 +19,17 @@ const documents = [
         subject: "Anatomy"
     },
     {
+        name: "Cardiovascular System",
+        filename: "ANATOMY/Cardiovascular system.pptx",
+        type: "PPTX",
+        icon: "❤️",
+        category: "Cardiovascular System",
+        semester: 1,
+        subject: "Anatomy"
+    },
+    {
         name: "Endocrine System",
-        filename: "endocrine system.pptx",
+        filename: "ANATOMY/endocrine system.pptx",
         type: "PPTX",
         icon: "🧬",
         category: "Endocrine System",
@@ -29,7 +38,7 @@ const documents = [
     },
     {
         name: "Female Reproductive Organs",
-        filename: "Female reproductive organs.pptx",
+        filename: "ANATOMY/Female reproductive organs.pptx",
         type: "PPTX",
         icon: "🔬",
         category: "Reproductive System",
@@ -38,7 +47,7 @@ const documents = [
     },
     {
         name: "Nervous and Sensory System",
-        filename: "nervous and sensory system.pptx",
+        filename: "ANATOMY/nervous and sensory system.pptx",
         type: "PPTX",
         icon: "🧠",
         category: "Nervous System",
@@ -47,7 +56,7 @@ const documents = [
     },
     {
         name: "Respiratory System",
-        filename: "respiratory system.pptx",
+        filename: "ANATOMY/respiratory system.pptx",
         type: "PPTX",
         icon: "🫁",
         category: "Respiratory System",
@@ -56,7 +65,7 @@ const documents = [
     },
     {
         name: "Urinary System",
-        filename: "Urinary system.pptx",
+        filename: "ANATOMY/Urinary system.pptx",
         type: "PPTX",
         icon: "💧",
         category: "Urinary System",
@@ -65,7 +74,7 @@ const documents = [
     },
     {
         name: "Introduction to Psychology - Unit I",
-        filename: "Introduction to Psychology-Unit I.pptx",
+        filename: "PYSCHOLOGY/Introduction to Psychology-Unit I.pptx",
         type: "PPTX",
         icon: "🧑‍🎓",
         category: "Psychology Basics",
@@ -74,7 +83,7 @@ const documents = [
     },
     {
         name: "Physiological Psychology - Unit 2",
-        filename: "Physiological psychology unit-2.pptx",
+        filename: "PYSCHOLOGY/Physiological psychology unit-2.pptx",
         type: "PPTX",
         icon: "🧪",
         category: "Physiological Psychology",
@@ -83,7 +92,7 @@ const documents = [
     },
     {
         name: "Learning and Memory - Unit 3",
-        filename: "Learning and memory unit-3.pptx",
+        filename: "PYSCHOLOGY/Learning and memory unit-3.pptx",
         type: "PPTX",
         icon: "📚",
         category: "Cognitive Psychology",
@@ -92,7 +101,7 @@ const documents = [
     },
     {
         name: "Personality, Motivation and Emotion - Unit 4",
-        filename: "Personality motivation and emotion unit-4.pptx",
+        filename: "PYSCHOLOGY/Personality motivation and emotion unit-4.pptx",
         type: "PPTX",
         icon: "😊",
         category: "Personality Psychology",
@@ -101,7 +110,7 @@ const documents = [
     },
     {
         name: "Attitude and Stress - Unit 5",
-        filename: "attitude and stress unit- 5.pptx",
+        filename: "PYSCHOLOGY/attitude and stress unit- 5.pptx",
         type: "PPTX",
         icon: "💭",
         category: "Health Psychology",
@@ -110,7 +119,7 @@ const documents = [
     },
     {
         name: "Medical Terminologies - 1",
-        filename: "Medical terminologies -1.pptx",
+        filename: "MEDICAL TERMINOLOGIES/Medical terminologies -1.pptx",
         type: "PPTX",
         icon: "📖",
         category: "Medical Terminology",
@@ -119,7 +128,7 @@ const documents = [
     },
     {
         name: "Medical Terminologies - 2",
-        filename: "Medical terminologies -2.pptx",
+        filename: "MEDICAL TERMINOLOGIES/Medical terminologies -2.pptx",
         type: "PPTX",
         icon: "📝",
         category: "Medical Terminology",
@@ -128,7 +137,7 @@ const documents = [
     },
     {
         name: "Medical Terminologies - 3",
-        filename: "Medical terminologies -3.pptx",
+        filename: "MEDICAL TERMINOLOGIES/Medical terminologies -3.pptx",
         type: "PPTX",
         icon: "📋",
         category: "Medical Terminology",
@@ -137,7 +146,7 @@ const documents = [
     },
     {
         name: "Medical Terminologies - 4",
-        filename: "Medical terminologies -4.pptx",
+        filename: "MEDICAL TERMINOLOGIES/Medical terminologies -4.pptx",
         type: "PPTX",
         icon: "📄",
         category: "Medical Terminology",
@@ -146,7 +155,7 @@ const documents = [
     },
     {
         name: "Medical Terminologies - 5",
-        filename: "MEDICAL TERMINOLOGIES -5.pptx",
+        filename: "MEDICAL TERMINOLOGIES/MEDICAL TERMINOLOGIES -5.pptx",
         type: "PPTX",
         icon: "📑",
         category: "Medical Terminology",
@@ -155,7 +164,7 @@ const documents = [
     },
     {
         name: "Medical Terminologies - 6",
-        filename: "MEDICAL TERMINOLOGIES - 6.pptx",
+        filename: "MEDICAL TERMINOLOGIES/MEDICAL TERMINOLOGIES - 6.pptx",
         type: "PPTX",
         icon: "📃",
         category: "Medical Terminology",
@@ -164,7 +173,7 @@ const documents = [
     },
     {
         name: "Medical Terminologies - 7",
-        filename: "MEDICAL TERMINOLOGIES -7.pptx",
+        filename: "MEDICAL TERMINOLOGIES/MEDICAL TERMINOLOGIES -7.pptx",
         type: "PPTX",
         icon: "📰",
         category: "Medical Terminology",
@@ -173,7 +182,7 @@ const documents = [
     },
     {
         name: "Medical Terminologies - 8",
-        filename: "MEDICAL TERMINOLOGIES -8.pptx",
+        filename: "MEDICAL TERMINOLOGIES/Medical terminologies -8.pptx",
         type: "PPTX",
         icon: "📜",
         category: "Medical Terminology",
@@ -182,7 +191,7 @@ const documents = [
     },
     {
         name: "Medical Terminologies - 9",
-        filename: "MEDICAL TERMINOLOGIES -9.pptx",
+        filename: "MEDICAL TERMINOLOGIES/Medical terminologies - 9.pptx",
         type: "PPTX",
         icon: "📚",
         category: "Medical Terminology",
@@ -191,7 +200,7 @@ const documents = [
     },
     {
         name: "Blood Physiology",
-        filename: "Blood -phy.pptx",
+        filename: "PHYSIOLOGY/Blood -phy.pptx",
         type: "PPTX",
         icon: "🩸",
         category: "Cardiovascular Physiology",
@@ -200,7 +209,7 @@ const documents = [
     },
     {
         name: "Endocrine Physiology",
-        filename: "Endocrine physiology.pptx",
+        filename: "PHYSIOLOGY/Endocrine physiology.pptx",
         type: "PPTX",
         icon: "🧬",
         category: "Endocrine System",
@@ -209,7 +218,7 @@ const documents = [
     },
     {
         name: "Excretory Physiology",
-        filename: "Excretory physiology.pptx",
+        filename: "PHYSIOLOGY/Excretory physiology.pptx",
         type: "PPTX",
         icon: "💧",
         category: "Renal Physiology",
@@ -218,7 +227,7 @@ const documents = [
     },
     {
         name: "Gastrointestinal Physiology",
-        filename: "Gastrointestinal physiology.pptx",
+        filename: "PHYSIOLOGY/Gastrointestinal physiology.pptx",
         type: "PPTX",
         icon: "🍽️",
         category: "Digestive System",
@@ -226,8 +235,17 @@ const documents = [
         subject: "Physiology"
     },
     {
+        name: "General Physiology",
+        filename: "PHYSIOLOGY/General physiology.pptx",
+        type: "PPTX",
+        icon: "⚕️",
+        category: "General Physiology",
+        semester: 1,
+        subject: "Physiology"
+    },
+    {
         name: "Muscle Physiology",
-        filename: "Muscle physiology.pptx",
+        filename: "PHYSIOLOGY/Muscle physiology.pptx",
         type: "PPTX",
         icon: "💪",
         category: "Muscular System",
@@ -235,8 +253,17 @@ const documents = [
         subject: "Physiology"
     },
     {
+        name: "Nervous Physiology",
+        filename: "PHYSIOLOGY/NERVOUS PHYSIOLOGY.pptx",
+        type: "PPTX",
+        icon: "🧠",
+        category: "Nervous System",
+        semester: 1,
+        subject: "Physiology"
+    },
+    {
         name: "Cardiovascular Physiology",
-        filename: "Cardiovascular physiology.pptx",
+        filename: "PHYSIOLOGY/Cardiovascular physiology.pptx",
         type: "PPTX",
         icon: "❤️",
         category: "Cardiovascular System",
@@ -245,7 +272,7 @@ const documents = [
     },
     {
         name: "Reproductive Physiology",
-        filename: "Reproductive physiology.pptx",
+        filename: "PHYSIOLOGY/Reproductive physiology.pptx",
         type: "PPTX",
         icon: "🔬",
         category: "Reproductive System",
@@ -253,8 +280,17 @@ const documents = [
         subject: "Physiology"
     },
     {
+        name: "Respiratory Physiology",
+        filename: "PHYSIOLOGY/Respiratory physiology.pptx",
+        type: "PPTX",
+        icon: "🫁",
+        category: "Respiratory System",
+        semester: 1,
+        subject: "Physiology"
+    },
+    {
         name: "Special Senses",
-        filename: "Special senses.pptx",
+        filename: "PHYSIOLOGY/Special senses.pptx",
         type: "PPTX",
         icon: "👁️",
         category: "Sensory System",
