@@ -296,6 +296,51 @@ const documents = [
         category: "Sensory System",
         semester: 1,
         subject: "Physiology"
+    },
+    {
+        name: "Introduction to Microbiology",
+        filename: "MICROBIOLOGY/Introduction to microbiology.pptx",
+        type: "PPTX",
+        icon: "🦠",
+        category: "Microbiology Basics",
+        semester: 2,
+        subject: "Microbiology"
+    },
+    {
+        name: "Morphology and Physiology of Bacteria",
+        filename: "MICROBIOLOGY/Morphology and physiology of bacteria.pptx",
+        type: "PPTX",
+        icon: "🧫",
+        category: "Bacterial Physiology",
+        semester: 2,
+        subject: "Microbiology"
+    },
+    {
+        name: "Pharmacology - Pharmacokinetics",
+        filename: "PHARMACOLOGY/pharmacology - pharmacokinetics.pptx",
+        type: "PPTX",
+        icon: "💊",
+        category: "Pharmacokinetics",
+        semester: 2,
+        subject: "Pharmacology"
+    },
+    {
+        name: "Preventive Medicine Question Answers",
+        filename: "PREVENTIVE MEDICINE/preventive medicine question answers 15 marks.pptx",
+        type: "PPTX",
+        icon: "🛡️",
+        category: "Preventive Medicine",
+        semester: 2,
+        subject: "Preventive Medicine"
+    },
+    {
+        name: "Sociology Question and Answers",
+        filename: "SOCIOLOGY/Sociology question and answers 15 marks.pptx",
+        type: "PPTX",
+        icon: "👥",
+        category: "Sociology",
+        semester: 2,
+        subject: "Sociology"
     }
 ];
 
