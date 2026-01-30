@@ -118,6 +118,15 @@ const documents = [
         subject: "Psychology"
     },
     {
+        name: "Biochemistry PYQs",
+        filename: "BIOCHEMISTRY/biochemistry pyqs",
+        type: "Document",
+        icon: "🧪",
+        category: "Biochemistry",
+        semester: 1,
+        subject: "Biochemistry"
+    },
+    {
         name: "Medical Terminologies - 1",
         filename: "MEDICAL TERMINOLOGIES/Medical terminologies -1.pptx",
         type: "PPTX",
