@@ -121,7 +121,7 @@ const documents = [
         name: "Biochemistry PYQs",
         filename: "BIOCHEMISTRY/biochemistry pyqs",
         type: "PDF",
-        icon: "🧬",
+        icon: "�",
         category: "Biochemistry",
         semester: 1,
         subject: "Biochemistry"
