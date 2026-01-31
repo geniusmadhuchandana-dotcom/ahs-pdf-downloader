@@ -6,24 +6,12 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #FFB3BA 0%, #FFDFBA 14%, #FFFFBA 28%, #BAFFC9 42%, #BAE1FF 57%, #D4BAFF 71%, #FFB3E6 85%, #FFB3BA 100%);
-    background-size: 400% 400%;
-    animation: rainbowAnimation 15s ease infinite;
+    background: #000000;
     min-height: 100vh;
     padding: 20px;
 }
 
-@keyframes rainbowAnimation {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
+
 
 .container {
     max-width: 1200px;
@@ -33,7 +21,7 @@ body {
 header {
     text-align: center;
     color: white;
-    background: rgba(0, 0, 0, 0.7);
+    background: #000000;
     border-radius: 15px;
     padding: 20px;
     margin-bottom: 30px;
@@ -84,19 +72,18 @@ header h1 {
 
 .filter-btn {
     padding: 10px 20px;
-    border: 2px solid black;
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
+    border: 2px solid #000000;
+    background: #f0f0f0;
+    color: #000000;
     border-radius: 25px;
     font-size: 0.95em;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
-    backdrop-filter: blur(10px);
 }
 
 .filter-btn:hover {
-    background: rgba(0, 0, 0, 0.8);
+    background: #e0e0e0;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
@@ -130,9 +117,9 @@ header h1 {
 
 .subject-btn {
     padding: 8px 16px;
-    border: 2px solid rgba(0, 0, 0, 0.6);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
+    border: 2px solid #000000;
+    background: #f0f0f0;
+    color: #000000;
     border-radius: 20px;
     font-size: 0.9em;
     font-weight: 500;
@@ -141,20 +128,20 @@ header h1 {
 }
 
 .subject-btn:hover {
-    background: rgba(0, 0, 0, 0.7);
+    background: #e0e0e0;
     transform: translateY(-1px);
 }
 
 .subject-btn.active {
-    background: rgba(0, 0, 0, 0.9);
+    background: #000000;
     color: white;
-    border-color: black;
+    border-color: #000000;
 }
 
 .stats {
     text-align: center;
     color: white;
-    background: rgba(0, 0, 0, 0.7);
+    background: #000000;
     padding: 10px 20px;
     border-radius: 25px;
     margin: 0 auto 20px;
@@ -194,7 +181,7 @@ header h1 {
     left: 0;
     width: 100%;
     height: 5px;
-    background: linear-gradient(90deg, #FFB3BA, #FFDFBA, #FFFFBA, #BAFFC9, #BAE1FF, #D4BAFF, #FFB3E6);
+    background: #000000;
 }
 
 .document-icon {
@@ -213,7 +200,7 @@ header h1 {
 
 .document-type {
     display: inline-block;
-    background: #667eea;
+    background: #000000;
     color: white;
     padding: 5px 12px;
     border-radius: 20px;
@@ -239,24 +226,12 @@ header h1 {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #FFB3BA, #FFDFBA, #FFFFBA, #BAFFC9, #BAE1FF, #D4BAFF, #FFB3E6);
-    background-size: 200% 200%;
-    animation: rainbowButton 3s ease infinite;
-    color: black;
+    background: #000000;
+    color: white;
     font-weight: 600;
 }
 
-@keyframes rainbowButton {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
+
 
 .btn-primary:hover {
     transform: scale(1.05);
@@ -275,7 +250,7 @@ header h1 {
 .no-results {
     text-align: center;
     color: white;
-    background: rgba(0, 0, 0, 0.7);
+    background: #000000;
     padding: 30px;
     border-radius: 15px;
     font-size: 1.2em;

@@ -127,6 +127,15 @@ const documents = [
         subject: "Biochemistry"
     },
     {
+        name: "Pathology PYQs",
+        filename: "PATHOLOGY/pathology pyqs.pdf",
+        type: "PDF",
+        icon: "🔬",
+        category: "Pathology",
+        semester: 2,
+        subject: "Pathology"
+    },
+    {
         name: "Medical Terminologies - 1",
         filename: "MEDICAL TERMINOLOGIES/Medical terminologies -1.pptx",
         type: "PPTX",
